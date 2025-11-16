@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ☑️ Tables:
+    - Table Tag: Used to form a table.
+    - tr: Used to display table row.
+    - td: Used to display table data.
+    - th: Used to display table header.
+
+    - Rowspan and colspan are used to create cells which spans over multiple rows or column.
+
+    -->
+
+    <!-- <table border="1">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chai</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Sutta</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+    </table> -->
+
+    <!-- <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table> -->
+
+     
+    <!-- ☑️ Forms: They are used to collect data from user. 
+    - Action Attribute: It defines where the collected data will get redirected and used.
+
+    - Input: It is used to create multiple forms using multiple types of type attribute.
+    - At once multiple checkoxes can be selected, this is not true for rasio button.
+
+    -->
+    <!-- <form action="/action">
+        Username: 
+        <input type="text" placeholder="Enter Username" name="Username"><br>
+        <label for="">
+            Password:
+            <input type="password"><br>
+        </label>
+        <label for="Num">Phone No:</label>
+        <input type="number" id="Num" name="Phone"><br>
+
+        <label for="age">I'm 18+</label>
+        <input type="checkbox" id="age" name="age"><br>
+
+        <label for="m">Male</label>
+        <input type="radio" id="m" name="Gender" value="Male">
+        <label for="f">Female</label>
+        <input type="radio" name="Gender" id="f" value="Female"><br>
+
+        <label for="prof">Select Profession: </label>
+        <select name="prof" id="prof">
+            <option value="profe">Professor</option>
+            <option value="stud">Student</option>
+        </select><br>
+
+        <label for="cgpa">Set your CGPA:</label>
+        <input type="range" min="1" max="10" step="0.5" id="cgpa" name="cgpa"><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr> -->
+
+    <h2>Registration Form</h2>
+    <form action="">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="First Name" name="FN" id="name">
+        <input type="text" placeholder="Last Name" name="LN" id="name"><br>
+        <label for="gender">Please select gender: </label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+        <label for="agreed">Do you agree to all terms of service?</label>
+        <input type="checkbox" id="agreed" name="agreed?"><br>
+        <button>Registor</button>
+    </form>
+
+    <!-- <form action="https://www.youtube.com/results?">
+        <label for="search">Search on Youtube:</label>
+        <input type="text" id="search" name="search_query">
+        <button>Submit</button>
+    </form> -->
+
+</body>
+</html>
